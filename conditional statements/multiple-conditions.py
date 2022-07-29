@@ -1,8 +1,12 @@
-# > 80 -> A
-# [65, 80] -> B
-# [50 - 65] -> C
-# [30 - 50] -> D
-# < 30 -> Fail
+"""
+A sample Grade program for use-case if, elif and else conditional
+
+80 -> A
+[65, 80] -> B
+[50 - 65] -> C
+[30 - 50] -> D
+< 30 -> Fail
+"""
 
 marks = int(input("Enter your marks: "))
 if marks >= 80:

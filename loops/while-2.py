@@ -1,3 +1,6 @@
+"""
+A sample program with no condition in the while section
+"""
 nums_list = []
 while True:
     num1 = int(input("Enter a  number: "))
