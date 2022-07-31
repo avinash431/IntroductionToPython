@@ -19,6 +19,7 @@ numbers = range(1, 11)
 output_dict = {num: num * num for num in numbers}
 print(output_dict)
 
+
 # sum of all columns in a matrix
 # loop zip of different lengths
 # foobar -> {'f': 1, 'o': 2, 'b':1, 'a':1, 'r': 1}

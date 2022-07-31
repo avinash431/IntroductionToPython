@@ -30,3 +30,18 @@ multi_pos_keyword_args(1, 2, 3)
 multi_pos_keyword_args(1, 2)
 multi_pos_keyword_args(1, x=1, y=3, z=10)
 multi_pos_keyword_args(x=1, y=7, z=8)
+
+
+def list_parameters(x, y=[]):
+    y.append(x)
+    print(f"id(x) is {id(x)}, id(y) is  {id(y)}")
+
+
+list_parameters(1)
+list_parameters(2, [])
+x = 3
+y = [1, 2, 3]
+print(f"In main id(x) is {id(x)}, id(y) is  {id(y)}")
+list_parameters(x, y)
+list_parameters(3)
+
