@@ -10,7 +10,7 @@ class Parent2:
 
 class Child(Parent2, Parent):
     def __init__(self, x, y):
-        super().__init__()
+        super(Child, self).__init__()
         self.x = x
         self.y = y
 
