@@ -1,0 +1,2 @@
+certifi==2022.6.15
+fake-data-generator==0.0.10

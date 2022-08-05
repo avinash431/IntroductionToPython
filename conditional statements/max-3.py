@@ -7,6 +7,8 @@ num1 = int(input("Enter number1 "))
 num2 = int(input("Enter number2 "))
 num3 = int(input("Enter number3 "))
 
+type(num1)
+
 """
 One way of finding the maximum of three numbers
 checking number to another one using nested if and else condition

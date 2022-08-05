@@ -1,0 +1,10 @@
+2022-08-05 05:52:49,312 - simpleExample - DEBUG - debug message
+2022-08-05 05:52:49,312 - simpleExample - INFO - info message
+2022-08-05 05:52:49,312 - simpleExample - WARNING - warn message
+2022-08-05 05:52:49,312 - simpleExample - ERROR - error message
+2022-08-05 05:52:49,312 - simpleExample - CRITICAL - critical message
+2022-08-05 05:53:59,917 - simpleExample - DEBUG - debug message
+2022-08-05 05:53:59,918 - simpleExample - INFO - info message
+2022-08-05 05:53:59,918 - simpleExample - WARNING - warn message
+2022-08-05 05:53:59,918 - simpleExample - ERROR - error message
+2022-08-05 05:53:59,918 - simpleExample - CRITICAL - critical message
