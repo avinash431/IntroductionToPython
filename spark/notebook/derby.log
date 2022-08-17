@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Aug 17 07:04:37 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0182-a970-2e7b-000011bcdde0 
+on database directory /Users/avinashs/PycharmProjects/introtoPython/spark/notebook/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@7aec35a 
+Loaded from file:/Users/avinashs/Downloads/softwares/spark-3.0.0-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.15+8-LTS-149
+user.dir=/Users/avinashs/PycharmProjects/introtoPython/spark/notebook
+os.name=Mac OS X
+os.arch=x86_64
+os.version=12.3.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
