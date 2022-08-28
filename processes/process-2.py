@@ -12,4 +12,5 @@ def print_name():
 with ProcessPoolExecutor() as t:
     t.submit(print_name)
     t.submit(print_hello_world)
+    t.map()
 
