@@ -1,22 +1,24 @@
 from pyspark.sql import SparkSession
 
-spark=(
+spark = (
     SparkSession
-    .builder
-    .appName("read_write_json_files")
-    .getOrCreate()
+        .builder
+        .appName("read_write_json_files")
+        .getOrCreate()
 )
 
-df=(
-    spark.read.format("json")
-    .option("mode","FAILFAST")
-    .option("inferSchema","true")
-    .load("./data/flight_data/json/2015-summary.json")
-)
+df = spark.read. \
+    format("json"). \
+    option("path", "./data/flight_data/json/2015-summary.json"). \
+    load()
 
 df.printSchema()
 df.show()
 
-df.write.format("json").mode("overwrite").save("tmp/my_json")
+df.write.\
+    format("json").\
+    mode("overwrite").\
+    option("path", "tmp/my_json").\
+    save()
 
 spark.stop()
