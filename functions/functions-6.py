@@ -4,6 +4,7 @@ def function_return_multiple_values(x, y):
     mul_ = x * y
     return sum_, sub_, mul_
 
+function_return_multiple_values(1,2)
 
 # a, b, c = function_return_multiple_values(2, 3)
 # print(f"a is {a} b is {b} c is {c}")
@@ -41,18 +42,22 @@ def function_caller(func):
     func()
 
 
-# function_caller(print_hello_world)
+def sample():
+    print("hello sample")
 
 
-# def outer_function():
-#     def inner_function():
-#         print("This is a inner function")
-#     print("This is a outer function")
-#     return inner_function
-#
-#
-# x = outer_function()
-# x()
+function_caller(sample)
+
+
+def outer_function():
+    def inner_function():
+        print("This is a inner function")
+    print("This is a outer function")
+    return inner_function
+
+
+x = outer_function()
+x()
 
 
 def f1(func):
@@ -61,6 +66,10 @@ def f1(func):
         func()
         print("Function is executed")
     return wrapper
+
+
+y = f1(sample)
+y()
 
 
 import time

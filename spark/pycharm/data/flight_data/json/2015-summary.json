@@ -254,3 +254,4 @@
 {"ORIGIN_COUNTRY_NAME":"Haiti","DEST_COUNTRY_NAME":"United States","count":225}
 {"ORIGIN_COUNTRY_NAME":"United States","DEST_COUNTRY_NAME":"Bonaire, Sint Eustatius, and Saba","count":58}
 {"ORIGIN_COUNTRY_NAME":"United States","DEST_COUNTRY_NAME":"Greece","count":30}
+{"DEST_COUNTRY_NAME": "India", "ORIGIN_COUNTRY_NAME":"China", "count": 10}

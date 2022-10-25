@@ -7,6 +7,12 @@ while index < 11:
     print(index)
     index += 1
 
+
+index = 10
+while index > 0:
+    print(index)
+    index -= 1
+
 """
 A sample program for break use-case
 """
@@ -28,4 +34,6 @@ print(index)
 # print stars pattern
 # sum of all the numbers' user has entered only if user hasn't entered 0 otherwise clear the entire list
 # sort all the numbers in ascending order
+
+
 

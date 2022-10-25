@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-author SparkByExamples.com
-"""
-
-import pyspark
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName('SparkByExamples.com') \
         .master("local[5]").getOrCreate()
@@ -31,3 +25,5 @@ rdd2.saveAsTextFile("c://tmp/re-partition2")
 rdd3 = rdd1.coalesce(4)
 print("Repartition size : "+str(rdd3.getNumPartitions()))
 rdd3.saveAsTextFile("c:/tmp/coalesce2")
+
+spark.stop()

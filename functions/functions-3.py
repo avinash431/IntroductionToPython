@@ -35,13 +35,16 @@ multi_pos_keyword_args(x=1, y=7, z=8)
 def list_parameters(x, y=[]):
     y.append(x)
     print(f"id(x) is {id(x)}, id(y) is  {id(y)}")
+    print(y)
 
 
 list_parameters(1)
-list_parameters(2, [])
+list_parameters(2)
+list_parameters(3, [])
+list_parameters(4)
 x = 3
-y = [1, 2, 3]
-print(f"In main id(x) is {id(x)}, id(y) is  {id(y)}")
-list_parameters(x, y)
+z = [1, 2, 3]
+print(f"In main id(x) is {id(x)}, id(y) is  {id(z)}")
+list_parameters(x, z)
 list_parameters(3)
 
