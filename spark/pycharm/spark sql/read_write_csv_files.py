@@ -14,7 +14,6 @@ df = spark.read.\
     format("csv").\
     option("header", "true").\
     option("mode", "FAILFAST").\
-    option("inferSchema", "true").\
     schema(flightSchema).\
     load("./data/flight_data/csv/2010-summary.csv")
 
