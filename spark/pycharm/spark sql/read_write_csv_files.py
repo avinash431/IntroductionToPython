@@ -18,7 +18,6 @@ df = spark.read.\
     schema(flightSchema).\
     load()
 
-
 df.printSchema()
 df.show(truncate=False)
 

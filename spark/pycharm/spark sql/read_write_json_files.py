@@ -2,10 +2,8 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("read_write_json_files").getOrCreate()
 
-
 df = spark.read. \
-    format("json").\
-    option("inferSchema", "true").\
+    format("json"). \
     option("path", "./data/flight_data/json/2015-summary.json"). \
     load()
 

@@ -12,7 +12,6 @@ columns = ["name", "dept", "state", "salary", "age", "bonus"]
 
 spark = SparkSession.builder.appName("read_write_parquet_files").getOrCreate()
 
-
 df = spark.createDataFrame(data=data, schema=columns)
 df.printSchema()
 df.show(truncate=False)
